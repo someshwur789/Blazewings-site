@@ -73,17 +73,9 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm text-gray-400">
+          <div className="flex justify-center items-center">
+            <div className="text-sm text-gray-400 text-center">
               © 2025 Blaze Wings Technology Pvt Ltd. All rights reserved.
-            </div>
-            <div className="text-sm text-gray-400">
-              CIN: U62099TZ2025PTC034553
-            </div>
-            <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-white transition-colors">Terms</a>
-              <a href="#" className="hover:text-white transition-colors">Careers</a>
             </div>
           </div>
         </div>

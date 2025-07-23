@@ -35,7 +35,7 @@ const About = () => {
                 that drive business transformation.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our journey began with a simple yet powerful vision: to bridge the gap between 
+                Our journey began with a powerful vision: to bridge the gap between 
                 traditional business operations and modern technology capabilities. Today, we stand 
                 as a trusted partner for organizations looking to embrace digital transformation.
               </p>
