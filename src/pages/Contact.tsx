@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: ["blazewingstechnology@gmail.com"],
+      content: ["blazewingstechnologypvt@gmail.com"],
       color: "from-green-500 to-green-600"
     },
     {
@@ -170,7 +170,7 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        placeholder="your.email@example.com"
+                        placeholder="example@gmail.com"
                       />
                     </div>
                   </div>
@@ -178,7 +178,7 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                        Phone Number
+                        Phone Number 
                       </label>
                       <Input
                         id="phone"

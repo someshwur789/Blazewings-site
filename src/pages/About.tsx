@@ -14,7 +14,7 @@ const About = () => {
       <section className="bg-gradient-to-br from-blue-600 to-purple-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Blaze Wings Technology</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Blaze Wings Technology</h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
               Empowering businesses with innovative technology solutions since 2025
             </p>
@@ -116,29 +116,6 @@ const About = () => {
                 </CardHeader>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Legal Info */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Legal Information</h2>
-          <div className="bg-gray-50 rounded-lg p-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Registration</h3>
-                <p className="text-gray-600">RoC Coimbatore</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Status</h3>
-                <p className="text-green-600 font-medium">Active</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">CIN</h3>
-                <p className="text-gray-600 text-sm">U62099TZ2025PTC034553</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

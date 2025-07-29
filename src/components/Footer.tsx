@@ -24,12 +24,12 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <MapPin className="h-4 w-4" />
-                <span>Tamil Nadu, India</span>
+                <span>Chennai, Tamil Nadu</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:blazewingstechnology@gmail.com" className="hover:text-white transition-colors">
-                  blazewingstechnology@gmail.com
+                <a href="mailto:blazewingstechnologypvt@gmail.com" className="hover:text-white transition-colors">
+                  blazewingstechnologypvt@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
