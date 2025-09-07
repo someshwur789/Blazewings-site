@@ -164,7 +164,7 @@ const Services = () => {
             Let's discuss your project requirements and how we can help you achieve your goals
           </p>
           <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-3">
-            <Link to="/contact">
+            <Link to="/Chat">
               Contact Us Today
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>

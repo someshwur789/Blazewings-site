@@ -9,10 +9,10 @@ import Footer from "./components/Footer";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Services from "./pages/Services";
-import Technologies from "./pages/Technologies";
 import Process from "./pages/Process";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Chatbot from './components/Chatbot';
 
 const queryClient = new QueryClient();
 
@@ -29,9 +29,9 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
-              <Route path="/technologies" element={<Technologies />} />
               <Route path="/process" element={<Process />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/chat" element={<Chatbot />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
@@ -40,6 +40,8 @@ const App = () => (
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
+
 );
+
 
 export default App;

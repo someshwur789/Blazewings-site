@@ -1,6 +1,8 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { MessageSquare, FileSearch, Code, Rocket, HeadphonesIcon, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Process = () => {
   const processSteps = [
@@ -204,12 +206,18 @@ const Process = () => {
             Experience our proven development process and bring your ideas to life
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+            <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-blue-100 hover:text-blue-700 text-lg px-8 py-3">
+              <Link to="/contact">
               Schedule a Consultation
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+
+            <Button asChild size="lg" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+              <Link to="/contact">
               View Our Work
-            </button>
+              </Link>
+            </Button>
           </div>
         </div>
       </section>

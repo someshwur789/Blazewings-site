@@ -12,7 +12,6 @@ const Header = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Technologies", href: "/technologies" },
     { name: "Process", href: "/process" },
     { name: "Contact", href: "/contact" },
   ];
@@ -54,7 +53,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button asChild className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-              <Link to="/contact">Get Started</Link>
+              <Link to="/Chat">Get Started</Link>
             </Button>
           </div>
 

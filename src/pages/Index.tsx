@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Code, Cloud, Cog, Bot, Zap, Users, Award, TrendingUp } from "lucide-react";
 
+
 const Index = () => {
   const services = [
     {
@@ -130,7 +131,7 @@ const Index = () => {
             Let's discuss how our technology solutions can help you achieve your goals
           </p>
           <Button asChild size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-lg px-8 py-3">
-            <Link to="/contact">
+            <Link to="/chat">
               Start Your Project
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
